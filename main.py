@@ -33,7 +33,7 @@ def pedir_letra(letras_usadas): # FUNCION COMPLETADA, FUNCIONA BIEN
             break
     
 def verificar_letra(letra, palabra_secreta):
-    if letra  in palabra_secreta:
+    if letra in palabra_secreta:
         return True
     else:
         return False    
